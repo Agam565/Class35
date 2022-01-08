@@ -17,7 +17,7 @@ function setup(){
 
 function draw(){
   background("white");
-  if(posiiton!==undefined){
+  if(position!==undefined){
 
     if(keyDown(LEFT_ARROW)){
       writePosition(-1,0);
